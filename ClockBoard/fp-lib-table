@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Project_Library)(type KiCad)(uri C:/Users/andre/Documents/Projects/GPS_Clock_Hardware/Project_Library.pretty)(options "")(descr ""))
+  (lib (name "Project Library")(type KiCad)(uri "C:/Users/andre/Documents/Projects/Spot_Welder_Hardware/Project Library.pretty")(options "")(descr ""))
 )
