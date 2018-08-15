@@ -39,6 +39,7 @@ LIBS:MRDT_Drill_Holes
 LIBS:MRDT_Headers
 LIBS:MRDT_ICs
 LIBS:MRDT_Passives
+LIBS:MRDT_Sensors
 LIBS:MRDT_Shields
 LIBS:MRDT_Silkscreens
 LIBS:MRDT_Switches
@@ -67,17 +68,6 @@ F 2 "Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm" H 1850 4550 60  0001 C CNN
 F 3 "" H 1850 4550 60  0001 C CNN
 	1    3250 3700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Molex_SL_5 Conn1
-U 1 1 5B3D48C5
-P 1900 2550
-F 0 "Conn1" H 1950 2500 60  0001 C CNN
-F 1 "Molex_SL_5" H 1950 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_5_Horizontal" H 1900 2550 60  0001 C CNN
-F 3 "" H 1900 2550 60  0001 C CNN
-	1    1900 2550
-	-1   0    0    -1  
 $EndComp
 Text Label 2850 3300 0    60   ~ 0
 Din
@@ -923,4 +913,15 @@ Wire Notes Line
 	5500 2950 7100 2950
 Wire Notes Line
 	7900 2700 7900 1000
+$Comp
+L Conn_01x05 J?
+U 1 1 5B6CA5A9
+P 1900 2300
+F 0 "J?" H 1900 2600 50  0000 C CNN
+F 1 "Conn_01x05" H 1900 2000 50  0000 C CNN
+F 2 "" H 1900 2300 50  0001 C CNN
+F 3 "" H 1900 2300 50  0001 C CNN
+	1    1900 2300
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=7/4/2018 5:11:02 PM
+update=8/10/2018 10:55:14 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=C:/Users/andre/Documents/Projects/GPS_Clock_Hardware/GPS_Clock
 LibName34=C:/Users/andre/Documents/Projects/GPS_Clock_Hardware/Project Library
+LibName35=C:/Users/andre/Documents/Projects/Spot_Welder_Hardware/ProjectLibrary

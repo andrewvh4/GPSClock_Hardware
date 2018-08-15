@@ -48,17 +48,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x05_Female J1
-U 1 1 5B441E73
-P 4300 3750
-F 0 "J1" H 4250 3500 50  0000 C CNN
-F 1 "Conn_01x05_Female" H 4300 3450 50  0001 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_5_Horizontal" H 4300 3750 50  0001 C CNN
-F 3 "" H 4300 3750 50  0001 C CNN
-	1    4300 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L 1088A5_8x8_LED_Matrix U20
 U 1 1 5B441ECC
 P 9350 2650
@@ -1691,15 +1680,13 @@ GND
 Text Notes 4300 3400 0    118  ~ 24
 Conn
 Wire Notes Line
-	4250 4050 4800 4050
+	4200 4050 4800 4050
 Wire Notes Line
 	4800 4050 4800 3200
 Wire Notes Line
-	4800 3200 4250 3200
+	4800 3200 4200 3200
 Wire Notes Line
-	4250 3200 4250 4050
-Wire Notes Line
-	4250 3450 4800 3450
+	4200 3450 4800 3450
 Wire Wire Line
 	1700 5050 1700 5100
 Wire Wire Line
@@ -1730,4 +1717,17 @@ Wire Wire Line
 	4850 7650 4850 7700
 Wire Wire Line
 	5950 7650 5950 7700
+Wire Notes Line
+	4200 3200 4200 4050
+$Comp
+L Conn_01x05 J?
+U 1 1 5B6CA188
+P 4300 3750
+F 0 "J?" H 4300 4050 50  0000 C CNN
+F 1 "Conn_01x05" H 4300 3450 50  0000 C CNN
+F 2 "" H 4300 3750 50  0001 C CNN
+F 3 "" H 4300 3750 50  0001 C CNN
+	1    4300 3750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

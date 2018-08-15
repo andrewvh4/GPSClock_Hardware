@@ -19,6 +19,36 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Conn_01x05
+#
+DEF Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED
 #
 DEF LED D 0 40 Y N 1 F N
@@ -73,23 +103,6 @@ X Seg_B 16 700 1500 200 L 50 50 1 1 I
 X Seg_G 17 700 1000 200 L 50 50 1 1 I
 X ISet 18 -200 1500 200 R 50 50 1 1 I
 X V+ 19 -200 1600 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Molex_SL_5
-#
-DEF Molex_SL_5 Conn 0 40 Y Y 1 F N
-F0 "Conn" 50 -50 60 H I C CNN
-F1 "Molex_SL_5" 200 550 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 0 500 100 0 0 1 0 N
-X ~ 1 -200 450 200 R 50 50 1 1 I
-X ~ 2 -200 350 200 R 50 50 1 1 I
-X ~ 3 -200 250 200 R 50 50 1 1 I
-X ~ 4 -200 150 200 R 50 50 1 1 I
-X ~ 5 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

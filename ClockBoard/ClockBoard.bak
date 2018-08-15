@@ -1,0 +1,107 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:GPS_Clock
+LIBS:Project Library
+LIBS:ProjectLibrary
+LIBS:ClockBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L UltimateGPSBreakout U?
+U 1 1 5B6E5FD8
+P 3950 3350
+F 0 "U?" H 4350 3300 60  0000 C CNN
+F 1 "UltimateGPSBreakout" H 4200 3900 60  0000 C CNN
+F 2 "" H 3700 2900 60  0001 C CNN
+F 3 "" H 3700 2900 60  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J?
+U 1 1 5B6E60A6
+P 1850 4250
+F 0 "J?" H 1850 4450 50  0000 C CNN
+F 1 "Mini USB" H 1850 3950 50  0000 C CNN
+F 2 "" H 1850 4250 50  0001 C CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+	1    1850 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ATMEGA328P-PU U?
+U 1 1 5B6E60EC
+P 5150 5400
+F 0 "U?" H 4400 6650 50  0000 L BNN
+F 1 "ATMEGA328P-PU" H 5550 4000 50  0000 L BNN
+F 2 "DIL28" H 5150 5400 50  0001 C CIN
+F 3 "" H 5150 5400 50  0001 C CNN
+	1    5150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FT232RL U?
+U 1 1 5B6E6202
+P 7650 6100
+F 0 "U?" H 8650 6050 60  0000 C CNN
+F 1 "FT232RL" H 8150 7650 60  0000 C CNN
+F 2 "" H 7100 6400 60  0001 C CNN
+F 3 "" H 7100 6400 60  0001 C CNN
+	1    7650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x05 J?
+U 1 1 5B6E639F
+P 9600 4300
+F 0 "J?" H 9600 4600 50  0000 C CNN
+F 1 "ClockBoard" H 9600 4000 50  0000 C CNN
+F 2 "" H 9600 4300 50  0001 C CNN
+F 3 "" H 9600 4300 50  0001 C CNN
+	1    9600 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
