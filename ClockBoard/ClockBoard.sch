@@ -88,7 +88,7 @@ U 1 1 5B6E639F
 P 2150 1850
 F 0 "J2" H 2150 2150 50  0000 C CNN
 F 1 "ClockBoard" H 2150 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 2150 1850 50  0001 C CNN
+F 2 "Project_Library:Clock_Board" H 2150 1850 50  0001 C CNN
 F 3 "" H 2150 1850 50  0001 C CNN
 	1    2150 1850
 	-1   0    0    -1  
@@ -510,5 +510,22 @@ D-
 Text GLabel 3650 1800 2    60   Output ~ 0
 D+
 Text GLabel 3650 2000 2    60   UnSpc ~ 0
+GND
+$Comp
+L Battery_Cell BT1
+U 1 1 5B74380B
+P 7900 1900
+F 0 "BT1" H 8000 2000 50  0000 L CNN
+F 1 "Battery_Cell" H 8000 1900 50  0000 L CNN
+F 2 "Project_Library:CR1220_Battery_Holder" V 7900 1960 50  0001 C CNN
+F 3 "" V 7900 1960 50  0001 C CNN
+	1    7900 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 1900 0    60   Input ~ 0
+VBat
+Text GLabel 7900 1700 1    60   Output ~ 0
+VBat
+Text GLabel 7900 2000 3    60   UnSpc ~ 0
 GND
 $EndSCHEMATC

@@ -1720,12 +1720,12 @@ Wire Wire Line
 Wire Notes Line
 	4200 3200 4200 4050
 $Comp
-L Conn_01x05 J?
+L ClockBoard J1
 U 1 1 5B6CA188
 P 4300 3750
-F 0 "J?" H 4300 4050 50  0000 C CNN
+F 0 "J1" H 4300 4050 50  0000 C CNN
 F 1 "Conn_01x05" H 4300 3450 50  0000 C CNN
-F 2 "" H 4300 3750 50  0001 C CNN
+F 2 "Project_Library:Clock_Board" H 4300 3750 50  0001 C CNN
 F 3 "" H 4300 3750 50  0001 C CNN
 	1    4300 3750
 	-1   0    0    -1  
