@@ -1,0 +1,7 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"REF**,REF**,REF**,REF**";"4_40_Hole_Corner";4;"4_40_Hole";;;
+2;"U1";"SOIC-24W_7.5x15.4mm_Pitch1.27mm";1;"MAX_7219";;;
+3;"D31,D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D32,D33,D34,D35,D36,D37,D38,D39,D40,D41,D42";"LED_D5.0mm";42;"LED";;;
+4;"C1";"C_0603_HandSoldering";1;"10uF";;;
+5;"R1";"R_0603_HandSoldering";1;"10K";;;
+6;"J1";"Clock_Board";1;"ClockBoard";;;
