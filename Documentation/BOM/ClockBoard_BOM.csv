@@ -1,0 +1,18 @@
+Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost Per Item,,Cost,,Comments,URL
+1,U2,Ultimate_GPS_Breakout,UltimateGPSBreakout,,GPS BREAKOUT 66CH W/10HZ UPDATES,1528-1153-ND,,,Digikey,1,39.95,,39.95,,,https://www.digikey.com/products/en?mpart=746&v=1528
+2,"C1,C5,C6,C7",C_0603_HandSoldering,.1uF,,.1uF 0603 Capacitor,399-1100-1-ND,,,Digikey,4,0.1,,0.4,,,https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375
+3,C2,C_0603_HandSoldering,1uF,,1uF 0603 Capacitor,1276-1182-1-ND,,,Digikey,1,0.1,,0.1,,,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KP8NNNC/1276-1182-1-ND/3889268
+4,"C3,C4",C_0603_HandSoldering,22pF,,22pF 0603 Capacitor,399-7874-1-ND,,,Digikey,2,0.1,,0.2,,,https://www.digikey.com/product-detail/en/kemet/C0603C220J1GACTU/399-7874-1-ND/3471597
+5,D1,D_0603,Tx,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,2,0.51,,1.02,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
+6,D2,D_0603,Rx,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,2,0.51,,1.02,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
+7,D3,D_0603,Power,,LED 0603 Green,160-1443-1-ND,,,Digikey,8,0.23,,1.84,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191GKT/160-1443-1-ND/386828
+8,R1,R_0603_HandSoldering,10K,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,1,0.1,,0.1,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
+9,"R2,R3",R_0603_HandSoldering,1K,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,2,0.1,,0.2,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
+10,"R4,R5,R6",R_0603_HandSoldering,500,,0603 Resistor 500,RHM510DCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ511/RHM510DCT-ND/1762937
+11,SW1,SPST_Pushbutton,SW_Push,,Pushbutton Switch,CKN9088CT-ND,,,Digikey,1,0.22,,0.22,,,https://www.digikey.com/products/en?keywords=CKN9088CT-ND
+12,U3,SSOP-28_5.3x10.2mm_Pitch0.65mm,FT232RL,,FTDI,FT232RL,,,Digikey,1,4.5,,4.5,,,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402
+13,Y1,Crystal_SMD_HC49-SD_HandSoldering,Crystal,,8MHz Crystal,XC1592CT-ND,,,Digikey,1,1.71,,1.71,,,https://www.digikey.com/products/en?keywords=XC1592CT-ND
+14,J3,MiniUSB_SMT,Mini USB,,SMD Mini USB,151-1206-1-ND,,,Digikey,1,0.54,,0.54,,,https://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192
+15,BT1,CR1220_Battery_Holder,Battery_Cell,,BATTERY RETAINER COIN 12MM SMD,36-3000-ND,,,Digikey,1,0.52,,0.52,,,https://www.digikey.com/product-detail/en/keystone-electronics/3000/36-3000-ND/227440
+16,U1,DIP-28_W7.62mm,ATMEGA328P,,ATMEGA328PU,ATMEGA328-PU-ND,,,Digikey,1,1.96,,1.96,,,https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026
+17,U1,DIP-28_W7.62mm,ATMEGA328P,,ATMEGA 328 Housing,ED3050-5-ND,,,Digikey,1,0.33,,0.33,,,https://www.digikey.com/products/en?keywords=ED3050-5-ND
