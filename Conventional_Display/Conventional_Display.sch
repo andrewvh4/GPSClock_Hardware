@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Project Library
+EESchema Schematic File Version 4
 LIBS:Conventional_Display-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -48,18 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 1088A5_8x8_LED_Matrix U20
-U 1 1 5B441ECC
-P 9350 2650
-F 0 "U20" H 9950 2600 60  0000 C CNN
-F 1 "1088A5_8x8_LED_Matrix" H 9700 3500 60  0000 C CNN
-F 2 "Project_Library:1088A5_8x8matrix" H 8600 2200 60  0001 C CNN
-F 3 "" H 8600 2200 60  0001 C CNN
-	1    9350 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L MAX_7219 U16
+L Project_Library:MAX_7219 U16
 U 1 1 5B441EF7
 P 8300 2650
 F 0 "U16" H 8750 2600 60  0000 C CNN
@@ -69,70 +25,6 @@ F 3 "" H 6900 3500 60  0001 C CNN
 	1    8300 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 1900 9150 1900
-Wire Wire Line
-	9000 2000 9150 2000
-Wire Wire Line
-	9000 2100 9150 2100
-Wire Wire Line
-	9000 2200 9150 2200
-Wire Wire Line
-	9000 2300 9150 2300
-Wire Wire Line
-	9000 2400 9150 2400
-Wire Wire Line
-	9000 2500 9150 2500
-Wire Wire Line
-	9000 2600 9150 2600
-Wire Wire Line
-	10200 1900 10250 1900
-Wire Wire Line
-	10250 1900 10250 1050
-Wire Wire Line
-	10250 1050 9000 1050
-Wire Wire Line
-	10200 2000 10300 2000
-Wire Wire Line
-	10300 2000 10300 1150
-Wire Wire Line
-	10300 1150 9000 1150
-Wire Wire Line
-	10200 2100 10350 2100
-Wire Wire Line
-	10350 2100 10350 1250
-Wire Wire Line
-	10350 1250 9000 1250
-Wire Wire Line
-	10200 2200 10400 2200
-Wire Wire Line
-	10400 2200 10400 1350
-Wire Wire Line
-	10400 1350 9000 1350
-Wire Wire Line
-	10200 2300 10450 2300
-Wire Wire Line
-	10450 2300 10450 1450
-Wire Wire Line
-	10450 1450 9000 1450
-Wire Wire Line
-	10200 2400 10500 2400
-Wire Wire Line
-	10500 2400 10500 1550
-Wire Wire Line
-	10500 1550 9000 1550
-Wire Wire Line
-	10200 2500 10550 2500
-Wire Wire Line
-	10550 2500 10550 1650
-Wire Wire Line
-	10550 1650 9000 1650
-Wire Wire Line
-	10200 2600 10600 2600
-Wire Wire Line
-	10600 2600 10600 1750
-Wire Wire Line
-	10600 1750 9000 1750
 Text GLabel 7450 850  0    60   Input ~ 0
 +5V
 $Comp
@@ -158,7 +50,7 @@ F 3 "" H 7850 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 850  8000 850 
+	7450 850  7600 850 
 Wire Wire Line
 	8000 850  8000 1050
 Wire Wire Line
@@ -166,7 +58,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 1150 7850 1150
 Wire Wire Line
-	7450 1250 8100 1250
+	7450 1250 7600 1250
 Wire Wire Line
 	7600 1250 7600 1150
 Connection ~ 7850 850 
@@ -180,7 +72,7 @@ Text GLabel 8100 2450 0    60   Input ~ 0
 Clk
 Text GLabel 8100 2350 0    60   Input ~ 0
 Load
-Text Notes 9100 1000 0    118  ~ 24
+Text Notes 9100 950  0    118  ~ 24
 Quadrant 1
 Wire Notes Line
 	10750 750  10750 8750
@@ -189,18 +81,7 @@ Wire Notes Line
 Wire Notes Line
 	7150 750  7150 8750
 $Comp
-L 1088A5_8x8_LED_Matrix U21
-U 1 1 5B44343C
-P 9350 4650
-F 0 "U21" H 9950 4600 60  0000 C CNN
-F 1 "1088A5_8x8_LED_Matrix" H 9700 5500 60  0000 C CNN
-F 2 "Project_Library:1088A5_8x8matrix" H 8600 4200 60  0001 C CNN
-F 3 "" H 8600 4200 60  0001 C CNN
-	1    9350 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L MAX_7219 U17
+L Project_Library:MAX_7219 U17
 U 1 1 5B443442
 P 8300 4650
 F 0 "U17" H 8750 4600 60  0000 C CNN
@@ -210,70 +91,6 @@ F 3 "" H 6900 5500 60  0001 C CNN
 	1    8300 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 3900 9150 3900
-Wire Wire Line
-	9000 4000 9150 4000
-Wire Wire Line
-	9000 4100 9150 4100
-Wire Wire Line
-	9000 4200 9150 4200
-Wire Wire Line
-	9000 4300 9150 4300
-Wire Wire Line
-	9000 4400 9150 4400
-Wire Wire Line
-	9000 4500 9150 4500
-Wire Wire Line
-	9000 4600 9150 4600
-Wire Wire Line
-	10200 3900 10250 3900
-Wire Wire Line
-	10250 3900 10250 3050
-Wire Wire Line
-	10250 3050 9000 3050
-Wire Wire Line
-	10200 4000 10300 4000
-Wire Wire Line
-	10300 4000 10300 3150
-Wire Wire Line
-	10300 3150 9000 3150
-Wire Wire Line
-	10200 4100 10350 4100
-Wire Wire Line
-	10350 4100 10350 3250
-Wire Wire Line
-	10350 3250 9000 3250
-Wire Wire Line
-	10200 4200 10400 4200
-Wire Wire Line
-	10400 4200 10400 3350
-Wire Wire Line
-	10400 3350 9000 3350
-Wire Wire Line
-	10200 4300 10450 4300
-Wire Wire Line
-	10450 4300 10450 3450
-Wire Wire Line
-	10450 3450 9000 3450
-Wire Wire Line
-	10200 4400 10500 4400
-Wire Wire Line
-	10500 4400 10500 3550
-Wire Wire Line
-	10500 3550 9000 3550
-Wire Wire Line
-	10200 4500 10550 4500
-Wire Wire Line
-	10550 4500 10550 3650
-Wire Wire Line
-	10550 3650 9000 3650
-Wire Wire Line
-	10200 4600 10600 4600
-Wire Wire Line
-	10600 4600 10600 3750
-Wire Wire Line
-	10600 3750 9000 3750
 Text GLabel 7450 2850 0    60   Input ~ 0
 +5V
 $Comp
@@ -299,7 +116,7 @@ F 3 "" H 7850 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2850 8000 2850
+	7450 2850 7600 2850
 Wire Wire Line
 	8000 2850 8000 3050
 Wire Wire Line
@@ -307,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 3150 7850 3150
 Wire Wire Line
-	7450 3250 8100 3250
+	7450 3250 7600 3250
 Wire Wire Line
 	7600 3250 7600 3150
 Connection ~ 7850 2850
@@ -321,23 +138,12 @@ Text GLabel 8100 4450 0    60   Input ~ 0
 Clk
 Text GLabel 8100 4350 0    60   Input ~ 0
 Load
-Text Notes 9100 3000 0    118  ~ 24
+Text Notes 9100 2950 0    118  ~ 24
 Quadrant 2
 Wire Notes Line
 	7150 2750 10750 2750
 $Comp
-L 1088A5_8x8_LED_Matrix U22
-U 1 1 5B4435D5
-P 9350 6650
-F 0 "U22" H 9950 6600 60  0000 C CNN
-F 1 "1088A5_8x8_LED_Matrix" H 9700 7500 60  0000 C CNN
-F 2 "Project_Library:1088A5_8x8matrix" H 8600 6200 60  0001 C CNN
-F 3 "" H 8600 6200 60  0001 C CNN
-	1    9350 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L MAX_7219 U18
+L Project_Library:MAX_7219 U18
 U 1 1 5B4435DB
 P 8300 6650
 F 0 "U18" H 8750 6600 60  0000 C CNN
@@ -347,70 +153,6 @@ F 3 "" H 6900 7500 60  0001 C CNN
 	1    8300 6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 5900 9150 5900
-Wire Wire Line
-	9000 6000 9150 6000
-Wire Wire Line
-	9000 6100 9150 6100
-Wire Wire Line
-	9000 6200 9150 6200
-Wire Wire Line
-	9000 6300 9150 6300
-Wire Wire Line
-	9000 6400 9150 6400
-Wire Wire Line
-	9000 6500 9150 6500
-Wire Wire Line
-	9000 6600 9150 6600
-Wire Wire Line
-	10200 5900 10250 5900
-Wire Wire Line
-	10250 5900 10250 5050
-Wire Wire Line
-	10250 5050 9000 5050
-Wire Wire Line
-	10200 6000 10300 6000
-Wire Wire Line
-	10300 6000 10300 5150
-Wire Wire Line
-	10300 5150 9000 5150
-Wire Wire Line
-	10200 6100 10350 6100
-Wire Wire Line
-	10350 6100 10350 5250
-Wire Wire Line
-	10350 5250 9000 5250
-Wire Wire Line
-	10200 6200 10400 6200
-Wire Wire Line
-	10400 6200 10400 5350
-Wire Wire Line
-	10400 5350 9000 5350
-Wire Wire Line
-	10200 6300 10450 6300
-Wire Wire Line
-	10450 6300 10450 5450
-Wire Wire Line
-	10450 5450 9000 5450
-Wire Wire Line
-	10200 6400 10500 6400
-Wire Wire Line
-	10500 6400 10500 5550
-Wire Wire Line
-	10500 5550 9000 5550
-Wire Wire Line
-	10200 6500 10550 6500
-Wire Wire Line
-	10550 6500 10550 5650
-Wire Wire Line
-	10550 5650 9000 5650
-Wire Wire Line
-	10200 6600 10600 6600
-Wire Wire Line
-	10600 6600 10600 5750
-Wire Wire Line
-	10600 5750 9000 5750
 Text GLabel 7450 4850 0    60   Input ~ 0
 +5V
 $Comp
@@ -436,7 +178,7 @@ F 3 "" H 7850 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 4850 8000 4850
+	7450 4850 7600 4850
 Wire Wire Line
 	8000 4850 8000 5050
 Wire Wire Line
@@ -444,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 5150 7850 5150
 Wire Wire Line
-	7450 5250 8100 5250
+	7450 5250 7600 5250
 Wire Wire Line
 	7600 5250 7600 5150
 Connection ~ 7850 4850
@@ -458,23 +200,12 @@ Text GLabel 8100 6450 0    60   Input ~ 0
 Clk
 Text GLabel 8100 6350 0    60   Input ~ 0
 Load
-Text Notes 9100 5000 0    118  ~ 24
+Text Notes 9100 4950 0    118  ~ 24
 Quadrant 3
 Wire Notes Line
 	7150 4750 10750 4750
 $Comp
-L 1088A5_8x8_LED_Matrix U23
-U 1 1 5B443620
-P 9350 8650
-F 0 "U23" H 9950 8600 60  0000 C CNN
-F 1 "1088A5_8x8_LED_Matrix" H 9700 9500 60  0000 C CNN
-F 2 "Project_Library:1088A5_8x8matrix" H 8600 8200 60  0001 C CNN
-F 3 "" H 8600 8200 60  0001 C CNN
-	1    9350 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L MAX_7219 U19
+L Project_Library:MAX_7219 U19
 U 1 1 5B443626
 P 8300 8650
 F 0 "U19" H 8750 8600 60  0000 C CNN
@@ -484,70 +215,6 @@ F 3 "" H 6900 9500 60  0001 C CNN
 	1    8300 8650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 7900 9150 7900
-Wire Wire Line
-	9000 8000 9150 8000
-Wire Wire Line
-	9000 8100 9150 8100
-Wire Wire Line
-	9000 8200 9150 8200
-Wire Wire Line
-	9000 8300 9150 8300
-Wire Wire Line
-	9000 8400 9150 8400
-Wire Wire Line
-	9000 8500 9150 8500
-Wire Wire Line
-	9000 8600 9150 8600
-Wire Wire Line
-	10200 7900 10250 7900
-Wire Wire Line
-	10250 7900 10250 7050
-Wire Wire Line
-	10250 7050 9000 7050
-Wire Wire Line
-	10200 8000 10300 8000
-Wire Wire Line
-	10300 8000 10300 7150
-Wire Wire Line
-	10300 7150 9000 7150
-Wire Wire Line
-	10200 8100 10350 8100
-Wire Wire Line
-	10350 8100 10350 7250
-Wire Wire Line
-	10350 7250 9000 7250
-Wire Wire Line
-	10200 8200 10400 8200
-Wire Wire Line
-	10400 8200 10400 7350
-Wire Wire Line
-	10400 7350 9000 7350
-Wire Wire Line
-	10200 8300 10450 8300
-Wire Wire Line
-	10450 8300 10450 7450
-Wire Wire Line
-	10450 7450 9000 7450
-Wire Wire Line
-	10200 8400 10500 8400
-Wire Wire Line
-	10500 8400 10500 7550
-Wire Wire Line
-	10500 7550 9000 7550
-Wire Wire Line
-	10200 8500 10550 8500
-Wire Wire Line
-	10550 8500 10550 7650
-Wire Wire Line
-	10550 7650 9000 7650
-Wire Wire Line
-	10200 8600 10600 8600
-Wire Wire Line
-	10600 8600 10600 7750
-Wire Wire Line
-	10600 7750 9000 7750
 Text GLabel 7450 6850 0    60   Input ~ 0
 +5V
 $Comp
@@ -573,7 +240,7 @@ F 3 "" H 7850 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 6850 8000 6850
+	7450 6850 7600 6850
 Wire Wire Line
 	8000 6850 8000 7050
 Wire Wire Line
@@ -581,7 +248,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 7150 7850 7150
 Wire Wire Line
-	7450 7250 8100 7250
+	7450 7250 7600 7250
 Wire Wire Line
 	7600 7250 7600 7150
 Connection ~ 7850 6850
@@ -595,7 +262,7 @@ Text GLabel 8100 8450 0    60   Input ~ 0
 Clk
 Text GLabel 8100 8350 0    60   Input ~ 0
 Load
-Text Notes 9100 7000 0    118  ~ 24
+Text Notes 9100 6950 0    118  ~ 24
 Quadrant 4
 Wire Notes Line
 	7150 8750 10750 8750
@@ -1730,4 +1397,328 @@ F 3 "" H 4300 3750 50  0001 C CNN
 	1    4300 3750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7850 850  8000 850 
+Wire Wire Line
+	7600 850  7850 850 
+Wire Wire Line
+	7600 1250 8100 1250
+Wire Wire Line
+	7850 2850 8000 2850
+Wire Wire Line
+	7600 2850 7850 2850
+Wire Wire Line
+	7600 3250 8100 3250
+Wire Wire Line
+	7850 4850 8000 4850
+Wire Wire Line
+	7600 4850 7850 4850
+Wire Wire Line
+	7600 5250 8100 5250
+Wire Wire Line
+	7850 6850 8000 6850
+Wire Wire Line
+	7600 6850 7850 6850
+Wire Wire Line
+	7600 7250 8100 7250
+$Comp
+L Project_Library:1088A5_8x8_LED_Matrix U20
+U 1 1 5EDF9CFE
+P 9350 1800
+F 0 "U20" H 10050 1800 60  0000 C CNN
+F 1 "1088A5_8x8_LED_Matrix" H 9600 1750 60  0000 C CNN
+F 2 "Project_Library:1088A5_8x8matrix" H 8600 1350 60  0001 C CNN
+F 3 "" H 8600 1350 60  0001 C CNN
+	1    9350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1050 9150 1050
+Wire Wire Line
+	9150 1150 9000 1150
+Wire Wire Line
+	9000 1250 9150 1250
+Wire Wire Line
+	9150 1350 9000 1350
+Wire Wire Line
+	9150 1450 9000 1450
+Wire Wire Line
+	9000 1550 9150 1550
+Wire Wire Line
+	9150 1650 9000 1650
+Wire Wire Line
+	9000 1750 9150 1750
+Wire Wire Line
+	9000 1900 10300 1900
+Wire Wire Line
+	10300 1900 10300 1050
+Wire Wire Line
+	10300 1050 10200 1050
+Wire Wire Line
+	10200 1150 10350 1150
+Wire Wire Line
+	10350 1150 10350 2000
+Wire Wire Line
+	10350 2000 9000 2000
+Wire Wire Line
+	10200 1250 10400 1250
+Wire Wire Line
+	10400 1250 10400 2100
+Wire Wire Line
+	10400 2100 9000 2100
+Wire Wire Line
+	9000 2200 10450 2200
+Wire Wire Line
+	10450 2200 10450 1350
+Wire Wire Line
+	10450 1350 10200 1350
+Wire Wire Line
+	9000 2300 10500 2300
+Wire Wire Line
+	10500 2300 10500 1450
+Wire Wire Line
+	10500 1450 10200 1450
+Wire Wire Line
+	10200 1550 10550 1550
+Wire Wire Line
+	10550 1550 10550 2400
+Wire Wire Line
+	10550 2400 9000 2400
+Wire Wire Line
+	9000 2500 10600 2500
+Wire Wire Line
+	10600 2500 10600 1650
+Wire Wire Line
+	10600 1650 10200 1650
+Wire Wire Line
+	10200 1750 10650 1750
+Wire Wire Line
+	10650 1750 10650 2600
+Wire Wire Line
+	10650 2600 9000 2600
+$Comp
+L Project_Library:1088A5_8x8_LED_Matrix U21
+U 1 1 5EE39BD0
+P 9350 3800
+F 0 "U21" H 10050 3800 60  0000 C CNN
+F 1 "1088A5_8x8_LED_Matrix" H 9600 3750 60  0000 C CNN
+F 2 "Project_Library:1088A5_8x8matrix" H 8600 3350 60  0001 C CNN
+F 3 "" H 8600 3350 60  0001 C CNN
+	1    9350 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3050 9150 3050
+Wire Wire Line
+	9150 3150 9000 3150
+Wire Wire Line
+	9000 3250 9150 3250
+Wire Wire Line
+	9150 3350 9000 3350
+Wire Wire Line
+	9150 3450 9000 3450
+Wire Wire Line
+	9000 3550 9150 3550
+Wire Wire Line
+	9150 3650 9000 3650
+Wire Wire Line
+	9000 3750 9150 3750
+Wire Wire Line
+	9000 3900 10300 3900
+Wire Wire Line
+	10300 3900 10300 3050
+Wire Wire Line
+	10300 3050 10200 3050
+Wire Wire Line
+	10200 3150 10350 3150
+Wire Wire Line
+	10350 3150 10350 4000
+Wire Wire Line
+	10350 4000 9000 4000
+Wire Wire Line
+	10200 3250 10400 3250
+Wire Wire Line
+	10400 3250 10400 4100
+Wire Wire Line
+	10400 4100 9000 4100
+Wire Wire Line
+	9000 4200 10450 4200
+Wire Wire Line
+	10450 4200 10450 3350
+Wire Wire Line
+	10450 3350 10200 3350
+Wire Wire Line
+	9000 4300 10500 4300
+Wire Wire Line
+	10500 4300 10500 3450
+Wire Wire Line
+	10500 3450 10200 3450
+Wire Wire Line
+	10200 3550 10550 3550
+Wire Wire Line
+	10550 3550 10550 4400
+Wire Wire Line
+	10550 4400 9000 4400
+Wire Wire Line
+	9000 4500 10600 4500
+Wire Wire Line
+	10600 4500 10600 3650
+Wire Wire Line
+	10600 3650 10200 3650
+Wire Wire Line
+	10200 3750 10650 3750
+Wire Wire Line
+	10650 3750 10650 4600
+Wire Wire Line
+	10650 4600 9000 4600
+$Comp
+L Project_Library:1088A5_8x8_LED_Matrix U22
+U 1 1 5EE3E01A
+P 9350 5800
+F 0 "U22" H 10050 5800 60  0000 C CNN
+F 1 "1088A5_8x8_LED_Matrix" H 9600 5750 60  0000 C CNN
+F 2 "Project_Library:1088A5_8x8matrix" H 8600 5350 60  0001 C CNN
+F 3 "" H 8600 5350 60  0001 C CNN
+	1    9350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5050 9150 5050
+Wire Wire Line
+	9150 5150 9000 5150
+Wire Wire Line
+	9000 5250 9150 5250
+Wire Wire Line
+	9150 5350 9000 5350
+Wire Wire Line
+	9150 5450 9000 5450
+Wire Wire Line
+	9000 5550 9150 5550
+Wire Wire Line
+	9150 5650 9000 5650
+Wire Wire Line
+	9000 5750 9150 5750
+Wire Wire Line
+	9000 5900 10300 5900
+Wire Wire Line
+	10300 5900 10300 5050
+Wire Wire Line
+	10300 5050 10200 5050
+Wire Wire Line
+	10200 5150 10350 5150
+Wire Wire Line
+	10350 5150 10350 6000
+Wire Wire Line
+	10350 6000 9000 6000
+Wire Wire Line
+	10200 5250 10400 5250
+Wire Wire Line
+	10400 5250 10400 6100
+Wire Wire Line
+	10400 6100 9000 6100
+Wire Wire Line
+	9000 6200 10450 6200
+Wire Wire Line
+	10450 6200 10450 5350
+Wire Wire Line
+	10450 5350 10200 5350
+Wire Wire Line
+	9000 6300 10500 6300
+Wire Wire Line
+	10500 6300 10500 5450
+Wire Wire Line
+	10500 5450 10200 5450
+Wire Wire Line
+	10200 5550 10550 5550
+Wire Wire Line
+	10550 5550 10550 6400
+Wire Wire Line
+	10550 6400 9000 6400
+Wire Wire Line
+	9000 6500 10600 6500
+Wire Wire Line
+	10600 6500 10600 5650
+Wire Wire Line
+	10600 5650 10200 5650
+Wire Wire Line
+	10200 5750 10650 5750
+Wire Wire Line
+	10650 5750 10650 6600
+Wire Wire Line
+	10650 6600 9000 6600
+$Comp
+L Project_Library:1088A5_8x8_LED_Matrix U23
+U 1 1 5EE44B85
+P 9350 7800
+F 0 "U23" H 10050 7800 60  0000 C CNN
+F 1 "1088A5_8x8_LED_Matrix" H 9600 7750 60  0000 C CNN
+F 2 "Project_Library:1088A5_8x8matrix" H 8600 7350 60  0001 C CNN
+F 3 "" H 8600 7350 60  0001 C CNN
+	1    9350 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 7050 9150 7050
+Wire Wire Line
+	9150 7150 9000 7150
+Wire Wire Line
+	9000 7250 9150 7250
+Wire Wire Line
+	9150 7350 9000 7350
+Wire Wire Line
+	9150 7450 9000 7450
+Wire Wire Line
+	9000 7550 9150 7550
+Wire Wire Line
+	9150 7650 9000 7650
+Wire Wire Line
+	9000 7750 9150 7750
+Wire Wire Line
+	9000 7900 10300 7900
+Wire Wire Line
+	10300 7900 10300 7050
+Wire Wire Line
+	10300 7050 10200 7050
+Wire Wire Line
+	10200 7150 10350 7150
+Wire Wire Line
+	10350 7150 10350 8000
+Wire Wire Line
+	10350 8000 9000 8000
+Wire Wire Line
+	10200 7250 10400 7250
+Wire Wire Line
+	10400 7250 10400 8100
+Wire Wire Line
+	10400 8100 9000 8100
+Wire Wire Line
+	9000 8200 10450 8200
+Wire Wire Line
+	10450 8200 10450 7350
+Wire Wire Line
+	10450 7350 10200 7350
+Wire Wire Line
+	9000 8300 10500 8300
+Wire Wire Line
+	10500 8300 10500 7450
+Wire Wire Line
+	10500 7450 10200 7450
+Wire Wire Line
+	10200 7550 10550 7550
+Wire Wire Line
+	10550 7550 10550 8400
+Wire Wire Line
+	10550 8400 9000 8400
+Wire Wire Line
+	9000 8500 10600 8500
+Wire Wire Line
+	10600 8500 10600 7650
+Wire Wire Line
+	10600 7650 10200 7650
+Wire Wire Line
+	10200 7750 10650 7750
+Wire Wire Line
+	10650 7750 10650 8600
+Wire Wire Line
+	10650 8600 9000 8600
 $EndSCHEMATC

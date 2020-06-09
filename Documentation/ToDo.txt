@@ -1,4 +1,2 @@
 ---ToDo---
-Verify all boards and schematics
-Final Gerbs
-Finalize BOM
+Fix COnventional Display 7219>Matrix routing

@@ -1,4 +1,4 @@
-update=8/9/2018 12:37:54 PM
+update=6/2/2020 6:25:54 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,13 @@ LibName41=C:/MRDT_KiCAD_Libraries/Device/MRDT_Sensors
 LibName42=C:/MRDT_KiCAD_Libraries/Device/MRDT_Shields
 LibName43=C:/MRDT_KiCAD_Libraries/Device/MRDT_Silkscreens
 LibName44=C:/MRDT_KiCAD_Libraries/Device/MRDT_Switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

@@ -1,4 +1,4 @@
-update=8/10/2018 10:55:14 PM
+update=6/2/2020 6:25:32 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=C:/Users/andre/Documents/Projects/GPS_Clock_Hardware/GPS_Clock
 LibName34=C:/Users/andre/Documents/Projects/GPS_Clock_Hardware/Project Library
 LibName35=C:/Users/andre/Documents/Projects/Spot_Welder_Hardware/ProjectLibrary
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
